@@ -7,7 +7,7 @@ uKey = ord("W");
 dKey = ord("S");
 vUKey = virtual_key_add(0, 1080 - 540, 540, 180, uKey);
 vDKey = virtual_key_add(0, 1080 - 180, 540, 180, dKey);
-hspd = 0;
+hSpd = 0;
 vSpd = 0;
 genSpd = 5;
 

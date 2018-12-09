@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "439e2672-c34b-4a87-95d4-f59440f846cf",
+            "Value": {
+                "id": "9d90f213-b3c7-484d-afd3-0d774c05815e",
+                "resourcePath": "sprites\\sprJoyStick\\sprJoyStick.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "459ecbdb-a492-44b8-bf20-c3928fbfca79",
             "Value": {
                 "id": "6c6b245e-79a2-4638-b5fd-21b6041be9a3",
@@ -223,6 +231,14 @@
             }
         },
         {
+            "Key": "d851ed0c-cd8b-423d-947f-3ddb5abbf4f7",
+            "Value": {
+                "id": "eb086925-94fe-4fad-b2da-b0e0e34e9749",
+                "resourcePath": "scripts\\change_camera_mode\\change_camera_mode.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d9d23712-26c3-4d47-8a91-a91802bafb93",
             "Value": {
                 "id": "14940a49-1210-4daf-83ef-718b03d61d98",
@@ -288,7 +304,7 @@
         }
     ],
     "script_order": [
-        
+        "d851ed0c-cd8b-423d-947f-3ddb5abbf4f7"
     ],
     "tutorial": ""
 }

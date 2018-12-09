@@ -6,8 +6,10 @@ x += hSpd;
 y += vSpd;
 
 // Firing
+/*
 if (mouse_check_button(mb_left))
 {
 	var bullet = instance_create_layer(x, y, "Projectile", objBullet);
 	with (bullet) direction = point_direction(x, y, mouse_x, mouse_y);
 }
+*/
