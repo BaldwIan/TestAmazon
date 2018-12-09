@@ -8,7 +8,7 @@ enum cammode
 	move_to_follow_object,
 }
 
-mode = 1;
+mode = 0;
 
 camera = camera_create();
 cwidth = 800;

@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "2e246616-14c4-4680-b2a1-070d875c3f87",
+            "Value": {
+                "id": "6f88c833-a409-40c5-92b0-582a8530d295",
+                "resourcePath": "objects\\objGUI\\objGUI.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2fb5e54e-a8c5-489f-9948-9d6e7b66f259",
             "Value": {
                 "id": "e1f6409e-7bbd-4b78-b1dc-dd9b7389937f",
@@ -175,6 +183,14 @@
             }
         },
         {
+            "Key": "931191b1-c7f6-4177-a549-31798c809008",
+            "Value": {
+                "id": "3b03e426-a3dc-4014-bc85-b256a923626b",
+                "resourcePath": "objects\\objJoyStick\\objJoyStick.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "959dd9bf-7b14-4781-b36c-1882c361a773",
             "Value": {
                 "id": "1d3388f6-94ea-4d91-89f7-8d9d38ad7aa3",
@@ -204,6 +220,14 @@
                 "id": "2e8645da-5831-422d-9f9a-fd6bb71b2206",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "b5e002df-7a2a-4ccd-8977-07cbcbf7c1c0",
+            "Value": {
+                "id": "a48057ad-2b8c-4f16-802e-eaead7631abe",
+                "resourcePath": "sprites\\sprJoyStickButton\\sprJoyStickButton.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
