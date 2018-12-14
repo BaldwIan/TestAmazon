@@ -1,11 +1,11 @@
-var tempJoyStick = 0;
+var tempJoyStick = joyStickKey;
 
 if (device_mouse_check_button(tempJoyStick, mb_left))
 {
 	var tempDir = point_direction(guiX, guiY, device_mouse_x_to_gui(tempJoyStick), device_mouse_y_to_gui(tempJoyStick));
-	var tempDistance = screenScale * (point_distance(guiX, guiY, device_mouse_x_to_gui(tempJoyStick), device_mouse_y_to_gui(tempJoyStick)));
+	var tempDistance = global.screenScale * (point_distance(guiX, guiY, device_mouse_x_to_gui(tempJoyStick), device_mouse_y_to_gui(tempJoyStick)));
 	 
-	if (tempDistance < sprite_get_width(sprJoyStick)/2*screenScale)
+	if (tempDistance < sprite_get_width(sprJoyStick)/2*global.screenScale)
 	{
 		joyStickActive = true;
 		image_alpha = lerp(image_alpha, 0.75, 0.5);
@@ -17,7 +17,7 @@ if (device_mouse_check_button(tempJoyStick, mb_left))
 		
 	}
 	
-	if (joyStickActive && tempDistance > screenScale * sprite_get_width(sprJoyStickButton)/2)
+	if (joyStickActive && tempDistance > global.screenScale * sprite_get_width(sprJoyStickButton)/2)
 	{
 		#region actions
 		
@@ -47,12 +47,12 @@ if (device_mouse_check_button(tempJoyStick, mb_left))
 		#endregion actions
 	}
 	
-	if (joyStickActive && point_distance(guiX, guiY, device_mouse_x_to_gui(tempJoyStick), device_mouse_y_to_gui(tempJoyStick)) > screenScale * sprite_get_width(sprJoyStick)/2)
+	if (joyStickActive && point_distance(guiX, guiY, device_mouse_x_to_gui(tempJoyStick), device_mouse_y_to_gui(tempJoyStick)) > global.screenScale * sprite_get_width(sprJoyStick)/2)
 	{
 		dir = tempDir;
 		
-		xDir = screenScale * lengthdir_x(sprite_get_width(sprJoyStick)/2, tempDir);
-		yDir = screenScale * lengthdir_y(sprite_get_height(sprJoyStick)/2, tempDir);
+		xDir = global.screenScale * lengthdir_x(sprite_get_width(sprJoyStick)/2, tempDir);
+		yDir = global.screenScale * lengthdir_y(sprite_get_height(sprJoyStick)/2, tempDir);
 	}
 	
 } else

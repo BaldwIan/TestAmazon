@@ -12,7 +12,7 @@
     "androidProps": true,
     "androidactivityinject": "",
     "androidclassname": "AmazonGameCircleIAPs",
-    "androidinject": "<receiver android:name = \"com.amazon.device.iap.ResponseReceiver\" >\\u000d\\u000a    <intent-filter>\\u000d\\u000a      <action android:name = \"com.amazon.inapp.purchasing.NOTIFY\"\\u000d\\u000a              android:permission = \"com.amazon.inapp.purchasing.Permission.NOTIFY\" \/>\\u000d\\u000a    <\/intent-filter>\\u000d\\u000a  <\/receiver>",
+    "androidinject": "<receiver android:name = \"com.amazon.device.iap.ResponseReceiver\" >\\u000a\\u000d    <intent-filter>\\u000a\\u000d      <action android:name = \"com.amazon.inapp.purchasing.NOTIFY\"\\u000a\\u000d              android:permission = \"com.amazon.inapp.purchasing.Permission.NOTIFY\" \/>\\u000a\\u000d    <\/intent-filter>\\u000a\\u000d  <\/receiver>",
     "androidmanifestinject": "",
     "androidsourcedir": "",
     "author": "",
